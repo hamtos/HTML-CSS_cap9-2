@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.box{
+  display: flex;
+  gap: 30px;
+}
+
+.item{
+  width: 300px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative
+}
+
+.step-num{
+  display: inline-block;
+  padding: 2px 0;
+  background-color: #ff9a4b;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image{
+  height: 150px;
+  background-image: url(img/flow01.png);
+}
+
+.title{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.text{
+  font-size: 12px;
+}
+
+footer{
+  height: 50px;
+  background-color: #aaaaaa;
+}
